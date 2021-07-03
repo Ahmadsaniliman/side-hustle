@@ -1,0 +1,85 @@
+#hero .container img{
+    width: 250px;
+}
+#hero p{
+    margin: 20px 0;
+    line-height: 1.4;
+}
+#hero h1{
+    margin: 30px 0;
+}
+#showcase .showcase-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    text-align: center;
+    line-height: 1.2;
+    margin: 150px auto;
+    padding: 50px 0;
+}
+#showcase .showcase-content h1{
+    padding: 20px 0;
+}
+#showcase-down .immg img{
+    width: 350px;
+}
+#showcase-down .container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#showcase-down .text{
+    padding : 30px
+}
+#showcase-down-1 .container{
+    display: flex;
+    flex-direction: column;
+}
+#showcase-down-1 .box{
+    margin: 20px 0;
+}
+#showcase-down-1 .down-img{
+    display: block;
+    margin-left: 30px;
+    position: absolute;
+}
+#card .card{
+    background: hsl(219, 30%, 18%);
+    padding: 3rem;
+    text-align: center;
+    margin: 550px 20px 20px 0;
+    border-radius: 5px;
+}
+#card .card .inp-1{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    /* margin: 10px 5px; */
+}
+#card .card .btn-1{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+#main-footer .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 1.4;
+}
+#main-footer .logo{
+    margin: 15px 15px;
+}
+#main-footer .container div i{
+    margin: 0 9px;
+}
+#main-footer .container div{
+    padding: 15px 10px;
+}
+#main-footer .container div:nth-child(2) i{
+    margin: 10px 0;
+}
+#main-footer .container div:last-child{
+    margin: 0 auto;
+}
